@@ -2,14 +2,14 @@ import webbrowser
 import os
 
 def email():
-	print "Email Services:\n"
-	print "	1. CyberSpy"
-	print "	2. OSINT BOOKMARKLETS v0.3"
-	print "	Third Party Websites:"
-	print "	3. com.lullar.com"
-	print "	4. email-checker.net"
-	print "	5. EmailFinder"
-	print "\n	x. Back to menu\n"
+	print ( "Email Services:\n")
+	print ("	1. CyberSpy")
+	print ("	2. OSINT BOOKMARKLETS v0.3")
+	print ("	Third Party Websites:")
+	print ("	3. com.lullar.com")
+	print ("	4. email-checker.net")
+	print ("	5. EmailFinder")
+	print ("\n	x. Back to menu\n")
 	try:
 		option2 = raw_input(">> ")
 	except KeyboardInterrupt:
